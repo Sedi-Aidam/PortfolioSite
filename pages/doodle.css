@@ -1,0 +1,473 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	max-width: 1920px; 
+	height:700px;
+	margin-top: 0px;
+	overflow: hidden;
+	background-image: url("../images/screentone.png");
+	}
+
+#doodleMain {
+	width: 953px;
+	height: 409px;
+	float: left;
+	background-color: red;
+	margin-right: auto;
+	margin-left: 256px;
+	margin-top:145px;
+	opacity: 0;
+	z-index: 3;
+}
+@keyframes fadeOff{
+	 from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+
+@keyframes fadeOn{
+	 from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.Gbox{
+	width: 290px;
+	height: 347px;
+	position: absolute;
+	left: 276px;
+	top: 208px;
+	z-index: 2;
+	opacity: 0;
+	animation-name: fadeOff; 
+	animation-duration: 1s;		
+    animation-timing-function: ease;
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+	background-size: 290px auto;
+	background-image: url("../images/Asset 6.png");
+	background-repeat: no-repeat;
+	cursor: progress;
+
+}
+
+.Gbox2{
+	width: 290px;
+	height: 347px;
+	position: absolute;
+	left: 276px;
+	top: 178px;
+	z-index: 1;
+	opacity: 1;
+	background-size: 290px auto;
+	background-image: url("../images/Asset 7.png");
+	background-repeat: no-repeat;
+	animation-name: fadeOn;
+	animation-duration: 1s;
+    animation-timing-function: ease;
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+.Gbox:hover{
+	animation-play-state: running;
+}
+.Gbox:hover + .Gbox2{
+	animation-play-state: running;
+}
+
+.Gbox2Page2{
+	width: 290px;
+	height: 347px;
+	position: absolute;
+	left: 276px;
+	top: 178px;
+	z-index: 1;
+	opacity: 1;
+	background-size: 290px auto;
+	background-image: url("../images/Asset 7.png");
+	background-repeat: no-repeat;
+}
+
+
+.Obox:hover{
+		animation-play-state: running;
+}
+.Obox:hover ~ .Obox2{
+		animation-play-state: running;
+}
+.Obox{
+	width: 137px;
+	height: 189px;
+	position: absolute;
+	left: 559px;
+	top: 334px;
+	background-size: 137px auto;
+	background-image: url("../images/Asset 5.png");
+	background-repeat: no-repeat;
+	z-index: 2;
+	opacity: 0;
+	animation-name: fadeOff;
+	animation-duration: 1s;
+    animation-timing-function: ease;
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+
+
+.Obox2{
+	width: 137px;
+	height: 189px;
+	position: absolute;
+	left: 559px;
+	top: 294px;
+	background-size: 137px auto;
+	background-image: url("../images/Asset 9.png");
+	background-repeat: no-repeat;
+	z-index: 1;
+	opacity: 1;
+	animation-name: fadeOn;
+	animation-duration: 1s;
+    animation-timing-function: ease;
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+
+
+.Obox2Page2{
+	width: 137px;
+	height: 189px;
+	position: absolute;
+	left: 559px;
+	top: 294px;
+	z-index: 1;
+	opacity: 1;
+	background-size: 137px auto;
+	background-image: url("../images/Asset 9.png");
+	background-repeat: no-repeat;
+}
+
+.O2box:hover{
+		animation-play-state: running;
+}
+.O2box:hover ~ .O2box2{
+		animation-play-state: running;
+}
+
+.O2box{
+	width: 134px;
+	height: 149px;
+	position: absolute;
+	left: 687px;
+	top: 324px;
+	background-size: 134px auto;
+	background-image: url("../images/Asset 4.png");
+	background-repeat: no-repeat;
+	z-index: 2;
+	opacity: 0;
+	animation-name: fadeOff;
+	animation-duration: 1s;
+    animation-timing-function: ease;
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+.O2box2
+{
+	width: 134px;
+	height: 159px;
+	position: absolute;
+	left: 687px;
+	top: 324px;
+	background-size: 134px auto;
+	background-image: url("../images/Asset 10.png");
+	background-repeat: no-repeat;
+	z-index: 1;
+	opacity: 1;
+	animation-name: fadeOn;
+	animation-duration: 1s;
+    animation-timing-function: ease;
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+
+.O2box2Page2
+{
+	width: 134px;
+	height: 159px;
+	position: absolute;
+	left: 687px;
+	top: 324px;
+	background-size: 134px auto;
+	background-image: url("../images/Asset 10.png");
+	background-repeat: no-repeat;
+}
+
+.G2box:hover{
+		animation-play-state: running;
+}
+.G2box:hover ~ .G2box2{
+		animation-play-state: running;
+}
+
+.G2box
+{
+	width: 167px;
+	height: 226px;
+	position: absolute;
+	left: 816px;
+	top: 321px;
+	background-size: 125px auto;
+	background-image: url("../images/Asset 3.png");
+	background-repeat: no-repeat;
+	z-index: 2;
+	opacity: 0;
+	animation-name: fadeOff;
+	animation-duration: 1s;
+    animation-timing-function: ease;
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+
+.G2box2
+{
+	width: 167px;
+	height: 226px;
+	position: absolute;
+	left: 806px;
+	top: 301px;
+	background-size: 167px auto;
+	background-image: url("../images/Asset 11.png");
+	background-repeat: no-repeat;
+	z-index: 1;
+	opacity: 1;
+	animation-name: fadeOn;
+	animation-duration: 1s;
+    animation-timing-function: ease;
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+
+.G2box2Page2
+{
+	width: 167px;
+	height: 226px;
+	position: absolute;
+	left: 806px;
+	top: 301px;
+	background-size: 167px auto;
+	background-image: url("../images/Asset 11.png");
+	background-repeat: no-repeat;
+}
+
+.Lbox:hover{
+		animation-play-state: running;
+}
+.Lbox:hover ~ .Lbox2{
+		animation-play-state: running;
+}
+
+.Lbox
+{
+	width: 37px;
+	height: 200px;
+	position: absolute;
+	left: 944px;
+	top: 279px;
+	background-size: 37px auto;
+	background-image: url("../images/Asset 2.png");
+	background-repeat: no-repeat;
+	z-index: 2;
+	opacity: 0;
+	animation-name: fadeOff;
+	animation-duration: 1s;
+    animation-timing-function: ease;
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+
+.Lbox2
+{
+	width: 143px;
+	height: 252px;
+	position: absolute;
+	left: 924px;
+	top: 229px;
+	background-size: 143px auto;
+	background-image: url("../images/Asset 12.png");
+	background-repeat: no-repeat;
+	z-index: 1;
+	opacity: 1;
+	animation-name: fadeOn;
+	animation-duration: 1s;
+    animation-timing-function: ease;
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+
+.Lbox2Page2
+{
+	width: 143px;
+	height: 252px;
+	position: absolute;
+	left: 924px;
+	top: 229px;
+	background-size: 143px auto;
+	background-image: url("../images/Asset 12.png");
+	background-repeat: no-repeat;
+}
+
+.Ebox:hover{
+		animation-play-state: running;
+}
+.Ebox:hover ~ .Ebox2{
+		animation-play-state: running;
+}
+
+.Ebox
+{
+	width: 143px;
+	height: 147px;
+	position: absolute;
+	left: 981px;
+	top: 330px;
+	background-size: 141px auto;
+	background-image: url("../images/Asset 1.png");
+	background-repeat: no-repeat;
+	z-index: 2;
+	opacity: 0;
+	animation-name: fadeOff;
+	animation-duration: 1s;
+    animation-timing-function: ease;
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+
+
+.Ebox2
+{
+	width: 143px;
+	height: 147px;
+	position: absolute;
+	left: 981px;
+	top: 330px;
+	background-size: 143px auto;
+	background-image: url("../images/Asset 13.png");
+	background-repeat: no-repeat;
+	z-index: 1;
+	opacity: 1;
+	animation-name: fadeOn;
+	animation-duration: 1s;
+    animation-timing-function: ease;
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+
+.Ebox2Page2
+{
+	width: 143px;
+	height: 147px;
+	position: absolute;
+	left: 981px;
+	top: 330px;
+	background-size: 143px auto;
+	background-image: url("../images/Asset 13.png");
+	background-repeat: no-repeat;
+}
+
+.speedLines
+{
+	width: 1920px;
+	height: 774px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	animation-name: zoomIn;
+	animation-duration: 1s;
+    animation-timing-function: ease;
+	/*animation-play-state: paused;*/
+	animation-fill-mode: forwards;
+	opacity: 1;
+	background-size: 1540px 774px;
+	background-image: url("../images/speed_lines.png");
+	background-repeat: no-repeat;
+	transform:scale(1,1);
+
+}
+
+@keyframes zoomIn {
+	from {
+		/*opacity: 0;*/
+       transform:scale(4,4); 
+       right:100px;
+    }
+    to {
+    	/*opacity: 1;*/
+      transform:scale(1,1);
+      right:0px;
+    }
+}
+
+@keyframes sfxZoom {
+	from {
+		opacity: 0;
+       transform:scale(4,4); 
+    }
+    to {
+    	opacity: 1;
+      transform:scale(1,1);
+    }
+}
+
+.gashi:hover{
+		animation-play-state: running;
+}
+.gashi:hover ~ .don{
+		animation-play-state: running;
+}
+
+.gashi
+{
+	width: 144px;
+	height: 119px;
+	position: absolute;
+	left: 495px;
+	top: 189px;
+	z-index: 2;
+	opacity:0;
+	animation-name: sfxZoom;
+	animation-duration: .5s;
+	animation-delay: 1.3s;
+    animation-timing-function: ease;
+	/*animation-play-state: paused;*/
+	animation-fill-mode: forwards;
+	background-size: 144px auto;
+	background-image: url("../images/gashi.png");
+	background-repeat: no-repeat;
+	transform:scale(1,1);
+}
+
+.don
+{
+	width: 137px;
+	height: 90px;
+	position: absolute;
+	left: 954px;
+	top: 494px;
+	z-index: 1;
+	opacity: 0;
+	animation-name: sfxZoom;
+	animation-duration: .5s;
+    animation-timing-function: ease;
+	/*animation-play-state: paused;*/
+	animation-fill-mode: forwards;
+	animation-delay: 1.7s;
+	background-size: 137px auto;
+	background-image: url("../images/don.png");
+	background-repeat: no-repeat;
+}

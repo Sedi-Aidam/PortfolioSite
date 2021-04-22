@@ -1,0 +1,241 @@
+body {
+	width: auto;
+	height: 897px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #0f1d2f;
+	/*margin: 0;  default space outside the object body*/
+	/*width: 1920px; //set default width*/  /*commented out*/
+	/*height: 100%;  //set default to the height of window*/ /*commented out*/
+}
+
+a {
+	color: hotpink;
+}
+
+h1{
+	/*white text*/
+	color: white;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	padding-left: 140px;
+	padding-right:  100px;
+	float:center;
+}
+
+h2{
+	/*design projects*/
+	color: white;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+	padding-left: 250px;
+	padding-right:  100px;
+	float:left;
+}
+
+p{
+	/*white text*/
+	color: white;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	float:left;
+}
+
+h3{
+	/*Sub heading orange*/
+	color: #ff8630;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: 0px;
+	float:center;
+}
+
+h4{
+	/*Sub heading purple*/
+	color: #e500ff;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: 0px;
+	float:center;
+}
+
+h5{
+	/*Sub heading green*/
+	color: #28ff00;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: 0px;
+	float:center;
+}
+
+h6{
+	/*Sub heading yellow*/
+	color: #ffff00;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: 0px;
+	float:center;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.backgroundimage {
+	margin-top: 0px;
+	height:897px;
+	background-image: url("landing_bg_transparent.png");
+	background-size:cover;
+	background-position:center;
+	background-blend-mode: screen;
+}
+
+.ipadsize {
+	width: 768px;
+	height: 897px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.topBar {
+	width: 768px; 
+	height: 70px;  
+	/*background-color: red;*/
+	position: absolute;
+	float: center;
+}
+
+.mainHeader {
+	margin-top: 70px;
+	width: 768px; 
+	height: 150px;  
+	/*background-color: aqua;*/
+	position: absolute;
+	float:center;
+}
+
+.mainBody {
+	margin-top: 300px;
+	width: 768px; 
+	height: 370px;  
+	/*background-color: fuchsia;*/
+	padding-top:  0px;
+	padding-bottom:  0px; 
+	position: absolute;
+	float: center;
+}
+
+#box1{
+	margin-left: 0px; /* pushes away from last element in the HTML. using single value will apply to all four sides*/
+	margin-top: 0px;
+	width: 130px; 
+	height: 130px;  
+	/*background-color: yellow;*/
+	float:left; /*The float property specifies how an element should float.*/
+
+}
+
+#box2{
+	margin-left: 0px; 
+	margin-top: 70px;
+	width: 130px; 
+	height: 130px;  
+	/*background-color: yellow;*/
+	float:left; 
+
+}
+
+#box3{
+	margin-left: 20px; 
+	margin-top: 50px;
+	width: 130px; 
+	height: 130px;  
+	/*background-color: yellow;*/
+	float:left; 
+
+}
+
+#box4{
+	margin-left: 30px; 
+	margin-top: 0px;
+	width: 130px; 
+	height: 130px;  
+	/*background-color: yellow;*/
+	float:left; 
+
+}
+
+#box5{
+	margin-left: 10px; 
+	margin-top: 100px;
+	width: 130px; 
+	height: 130px;  
+	/*background-color: yellow;*/
+	float:left; 
+
+}
+
+#box6{
+	margin-left: 150px; 
+	margin-top: 100px;
+	width: 130px; 
+	height: 130px;  
+	/*background-color: yellow;*/
+	float:left; 
+
+}
+
+#icons{
+	margin-left: 15px; 
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100px; 
+	height: auto;  
+	/*background-color: blue;*/
+	float:left; 
+
+}
+
+#smallIcons{
+	margin-left: 15px; 
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: auto; 
+	height: 50px;  
+	/*background-color: blue;*/
+	float:left; 
+
+}
+
+
+
+/*.hoverattempt {
+	margin-left: 15px; 
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100px; 
+	height: 100px;  
+	background-color: blue;
+	float:left; 
+	background-image: "images/about_icon.png" no-repeat;
+}
+
+.hoverattempt:hover {
+	background-image: "images/about_hover.png" no-repeat;
+}
+
+Not in use
+*/
